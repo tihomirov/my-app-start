@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <title>Angular 2</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Angular2 Webpack">
+  <link rel="icon" href="favicon.ico">
+  <!-- base url -->
+  <base href="/">
+  <!--
+    Angular 2
+    ES6 browser shim
+  -->
+  <script src="/lib/es6-shim.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="/lib/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/lib/bootstrap.min.css">
+</head>
+<body>
+
+  <app>
+    Loading...
+  </app>
+
+  <!-- Common files to be cached -->
+  <script src="/__build__/common.js"></script>
+  <!-- Angular2 files -->
+  <script src="/__build__/angular2.js"></script>
+  <!-- App script -->
+  <script src="/__build__/app.js"></script>
+
+  <script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
